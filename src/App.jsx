@@ -17,6 +17,11 @@ function App() {
       () => setValue(value - 1)
      }
      >Sub</button>
+     <h1>count {value}</h1>
+     <button onClick = {
+      () => setValue(value + 5)
+     }
+     >Add5</button>
     </>
   )
 }

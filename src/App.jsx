@@ -13,6 +13,10 @@ function App() {
       () => setValue(value +1)
      }
      >Add</button>
+      <button onClick = {
+      () => setValue(value + 2)
+     }
+     >Add2</button>
     </>
   )
 }
